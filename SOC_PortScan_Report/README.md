@@ -1,7 +1,8 @@
+**Portfolio Project – SOC Analyst Practice Lab**  
+
 # SOC Level 1 Alert Investigation Report  
 ## Port Scanning Activity Analysis
 
----
 
 ## Scenario
 
@@ -14,8 +15,6 @@ Note: The vulnerability assessment team notified the SOC team that they were run
 Using the organization's **SIEM platform**, I investigated the alert logs to determine the full context of the activity and document the findings using the **5 Ws methodology**.
 
 
-============================================
-
 ## Alert Summary
 
 - **Alert Type:** Port Scanning Activity  
@@ -25,7 +24,6 @@ Using the organization's **SIEM platform**, I investigated the alert logs to det
 - **Tool Identified:** Nessus Vulnerability Scanner  
 - **Response Observed:** Yes (Target host responded)
 
---------------------------------------------
 
 ## 5 Ws Analysis
 
@@ -37,7 +35,6 @@ Using the organization's **SIEM platform**, I investigated the alert logs to det
 | **Who**       | Nessus 
 | **Why**       | Intended 
 
---------------------------------------------
 
 ## Investigation Process
 
@@ -49,11 +46,10 @@ Using the organization's **SIEM platform**, I investigated the alert logs to det
 6. Determined activity was **authorized and intended**, not malicious.
 7. Verified that the destination host responded to scan traffic.
 
---------------------------------------------
 
 ## Evidence & Screenshots
 
-> Screenshots captured during investigation.
+Screenshots captured during investigation.
 
 ### SIEM Alert View
 ![SIEM Alert](images/siem_alert.png)
@@ -64,26 +60,23 @@ Using the organization's **SIEM platform**, I investigated the alert logs to det
 ### Nessus Scan Evidence
 ![Nessus Evidence](images/nessus_scan.png)
 
----
 
-## 🧰 Tools Used
+## Tools Used
 
 - SIEM Platform (Log Analysis & Correlation)
 - Nessus (Vulnerability Scanner)
 - Network Log Inspection
 
----
 
-## 📚 Key Analyst Takeaways
+## Key Analyst Takeaways
 
-- Not all port scans are malicious — context and communication between teams is critical.
+- Not all port scans are malicious - context and communication between teams is critical.
 - Always validate alerts against internal change management or vulnerability schedules.
 - Proper documentation strengthens SOC reporting and escalation processes.
 - The 5 Ws framework provides structured and efficient alert analysis.
 
----
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - SIEM log analysis  
 - Alert triage & investigation  
@@ -91,6 +84,4 @@ Using the organization's **SIEM platform**, I investigated the alert logs to det
 - Identifying authorized vs malicious activity  
 - Security documentation & reporting  
 
----
 
-🔐 **Portfolio Project – SOC Analyst Practice Lab**  
